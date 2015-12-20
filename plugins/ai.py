@@ -28,6 +28,7 @@ responses = (
     ("i want to die",           ("MYAH!","MYAH~")),
     ("*.nyaa~",                 ("nyaa nyaaaaaa~~~!","nyaa?", "nyaa~~ni?","I am a cat nyaa~", "Do you like {name} nyaa?")),
     ("*.nyaa",                 ("nyaa nyaaaaaa~~~!","nyaa?", "nyaa~~ni?","I am a cat nyaa~", "Do you like {name} nyaa?")),
+    ("nyaa",                 ("nyaa nyaaaaaa~~~!","nyaa?", "nyaa~~ni?","I am a cat nyaa~", "Do you like {name} nyaa?")),
 
 )
     # ("yeah",                    ("yeah","yeah")),

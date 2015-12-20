@@ -185,7 +185,7 @@ factory = ChatterBotFactory()
 bot = factory.create(ChatterBotType.PANDORABOTS, 'df9c8acfde345d97')
 botsession = bot.create_session()
 
-chatbot_re = (r'((?:ura|urakaze)\s(.+)|(.+)\s(?:ura|urakaze))', re.I)
+chatbot_re = (r'((?:ura|urakaze|ura-chan|urakaze-chan)\s(.+)|(.+)\s(?:ura|urakazeura-chan|urakaze-chan))', re.I)
 @hook.regex(*chatbot_re)
 @hook.command
 def chatbot(inp, reply=None):
